@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav>
+                
+                <a href="#" class="logo" onclick="showSection('home')">Portfólio pessoal</a>
+                
+                <!-- Menu de navegação -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#" onclick="showSection('home')" class="nav-link active">Home</a></li>
+                    <li><a href="#" onclick="showSection('about')" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="#" onclick="showSection('education')" class="nav-link">Formação</a></li>
+                    <li><a href="#" onclick="showSection('portfolio')" class="nav-link">Portfólio</a></li>
+                    <li><a href="#" onclick="showSection('contact')" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <!-- Menu hamburguer para mobile -->
+                <div class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+        <!-- Seção Home - Apresentação inicial -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="eu">
+                <img src="1718280090750.jpeg" alt="minha foto">
+                    <div class="infos">
+                        <a href="https://github.com/KMZ7878"><img src="git.png" alt=""></a>
+                        <img src="curriculo.png" alt="">
+                        <a href="https://www.linkedin.com/in/kau%C3%AA-marques-06b015218/?locale=en_US"><img src="linkedin.png" alt=""></a>
+                    </div>
+            </div>
+            
+
+            
+                <h2>Olá, eu sou Kauê Marques Sumariva</h2>
+                <p>Desenvolvedor Web Java apaixonado por tecnologia e inovação</p>
+                <a href="#" class="cta-button" onclick="showSection('portfolio')">Ver Meu Trabalho</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="section">
+            <h1>Sobre Mim</h1>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Quem Sou Eu</h3>
+                    <p>Sou um desenvolvedor apaixonado por tecnologia, com experiência em desenvolvimento web. Gosto de criar soluções inovadoras e funcionais que fazem a diferença na vida das pessoas.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Hobbies e Interesses</h3>
+                    <p>Nas horas vagas, gosto de ler livros sobre tecnologia, jogar videogames, praticar esportes e explorar novas tecnologias. Também sou um entusiasta da fotografia e viagens.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Objetivos</h3>
+                    <p>Meu objetivo é crescer continuamente como desenvolvedor, contribuir para projetos impactantes e ajudar empresas a alcançarem seus objetivos através da tecnologia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação Educacional -->
+        <section id="education" class="section">
+            <h1>Formação Educacional</h1>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Educação Formal</h3>
+                    <p><strong>Bacharelado em Engenharia de Computação- Uninter</strong><br>
+                    Atualmente Cursando Ensino Superior em Engenharia de Software <br>
+                    Focado em desenvolvimento web, algoritmos e estruturas de dados. started 29/12/24</p>
+                </div>
+                <div class="info-card">
+                    <h3>EBAC - British School of Creative Arts and Technology course</h3>
+                    <p><strong> - Full Stack Java
+Developer / Front-end development: started 5/10/2023<br>
+                    HTML, CSS, JavaScript, React, Node.js, MongoDB</p>
+                </div>
+                <div class="info-card">
+                    <h3>Idiomas</h3>
+                    <p><strong>Português:</strong> Nativo<br>
+                    <strong>Inglês:</strong> Fluente (C1)<br>
+                    <strong>Espanhol:</strong> Intermediário (B2)</p>
+                </div>
+                <div class="info-card">
+                    <h3>Certificações</h3>
+                    <p><strong>Google Analytics</strong> - 2023<br>
+                    <strong>AWS Cloud Practitioner</strong> - 2024<br>
+                    <strong>Scrum Master</strong> - 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio" class="section">
+            <h1>Meu Portfólio</h1>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="LOGO_VF.png" alt="Relar : Imob app">
+                    <div class="portfolio-content">
+                        <h3>Freelance project, Relar:Imob</h3>
+                        <p>Atualmente desenvolvendo um aplicativo mobile para uma imobiliária com funções de:
+chat, visualização de câmeras, chaves de acesso, solicitação de serviços e telas de login.
+Atuei no front-end com NativeWind React Native, Expo CLI.
+</p>
+                        <a href="" class="portfolio-link"></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="NVIDIA_Overlay_U3mOgpUlFF.jpg" alt="App do Clima">
+                    <div class="portfolio-content">
+                        <h3>Salão de Festas | Porto Alegre</h3>
+                        <p>Projeto freelancer em desenvolvimento para um salão de festas, voltado ao
+aprimoramento das minhas habilidades em front-end, com foco principalmente em CSS,
+visando evoluir como desenvolvedor full stack.</p>
+                        <a href="#" class="portfolio-link">Ver Projeto →<p>https://github.com/KMZ7878/Full-house
+</p></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="NVIDIA_Overlay_F2lRkO9q2G.png">
+                        <h3>Jogo em JavaScript</h3>
+                        <p>Jogo interativo desenvolvido com JavaScript puro, featuring sistema de pontuação, níveis progressivos e efeitos sonoros.</p>
+                        <a href="#" class="portfolio-link"></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzc2NGJhMiIvPgogIDx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iMC4zZW0iPkRhc2hib2FyZDwvdGV4dD4KPC9zdmc+Cg==" alt="Dashboard">
+                    <div class="portfolio-content">
+                        <h3>Projeto acadêmico | MySQL</h3>
+                        <p>modelagem conceitual de rede de hotéis (entidades, atributos, relacionamentos,
+cardinalidades, PK e FK) e implementação de banco de dados de locadora de veículos no
+MySQL, com criação e população de tabelas e execução de consultas SQL específicas.</p>
+                        <a href="#" class="portfolio-link"></a>
+                    </div>
+                </div>
+            </div>999
+        </section>
+
+        <!-- Seção para o contato -->
+        <section id="contact" class="section">
+            <h1>Entre em Contato</h1>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kauê Marques Sumariva. Todos os direitos reservados.</p>
+            <p>Desenvolvido com HTML, CSS e JavaScript</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
